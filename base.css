@@ -1,0 +1,164 @@
+html, body {
+    margin: 0;
+}
+body {
+    /* background-color: #03ea6f; */
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 12%;
+    background-color:#277186;
+
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+}
+.footer {
+    background-color:#240b0b;
+    min-height: 50px;
+    max-width: 80%;
+    font: 22px;
+    color: #c2e4ed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.headerimg{
+    max-height: 250px;
+
+}
+.menulist{
+    color: white;
+    font-size: 16px;
+    margin-top: 20%;
+    margin-left: auto;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+}
+.menulist:hover {
+    color: yellow;
+    font-size: 18px;
+    transition: 300ms;
+}
+.pfooter {
+    margin-left: 12px;
+    margin-top: 2px;
+}
+.h2content{
+    margin: 0px;
+}
+table{
+    -webkit-box-shadow: 10px 19px 18px 10px rgba(0,0,0,0.62);
+    box-shadow: 10px 19px 18px 10px rgba(0,0,0,0.62);
+}
+.divcol1{
+    font-size: 19px;
+    margin-right: 20%;
+    list-style: square;
+
+}
+.divcol1:hover{
+    color: rgb(81, 9, 86);
+    font-size: 22px;
+    transition: 300ms;
+
+}
+
+.tblocalizacao{
+
+    margin-left: 19px;
+    margin-bottom: 15px;
+
+}
+.cptmapa{
+    font-size: 22px;
+    color: #240b0b;
+}
+.separatemiddle{
+    background-color: aqua;
+}
+.tablehome{
+    margin: 0%;
+    -webkit-box-shadow: 10px 19px 18px 10px rgba(0,0,0,0.62);
+    box-shadow: 10px 19px 18px 10px rgba(0,0,0,0.62);
+}
+.tabatendimento{
+    
+    border-collapse: collapse;
+    padding: 5px;
+}
+.primeiralinha {
+    background-color: #512572;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;    
+}
+
+table tr:nth-child(even){
+    background-color: #96c5d2;   
+}
+.divcontato{
+    align-self: center;
+}
+
+form{
+    width: 300px;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 15px;
+}
+
+form input {
+    padding: 5px;
+    font-size: 16px;
+    background-color: rgb(231, 222, 222, 0.777);
+    border-radius: 8px;
+}
+
+
+form textarea {
+    padding: 5px;
+    font-size: 16px;
+    background-color: rgb(231, 222, 222, 0.777);
+    border-radius: 8px;
+}
+
+form label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+form button {
+    background-color: #2661c9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    width: 120px;
+    align-self: center;
+    padding: 5px;
+    margin: 5px;
+    color: beige;
+}
+form button:hover{
+    background-color: #010717;
+    font: 16px;
+    color: rgb(222, 251, 3);
+    cursor: pointer;
+}
